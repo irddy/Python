@@ -1,0 +1,168 @@
+### Python Game
+### 21st of May 2020 
+### Author: Irdi Duka
+
+print("Dear citizen of the world! ")
+print()
+print()
+
+print("Welcome to the game!")
+print("In this game the hero or heroine is You :) .")
+print()
+
+print("Here is a challenge for You:")
+print()
+print("Let's see how many points you can gather. Follow the instructions... (-1 point for not doing so)")
+print("I am going to try to make it interesting and you are going to help me out.")
+print()
+print()
+
+stop1 = input("Press any key to continue...")
+print()
+print()
+
+
+print("Hi again. The author of this game is me. Irdi. I am a citizen of the world.")
+print("I wanted to have a challenge with another citizen of the world...")
+print("However, in 2020, I am like a deaf person in a crowd of many loud citizens...")
+print("That is why I decided to create something, with the dream of getting my voice heard in the future...")
+print("We are going to start with 100 points.")
+print()
+print()
+
+stop1 = input("Press any key to continue...")
+print()
+print()
+
+Questions = [ "1)Press 'a' if you were ever present and experienced the miracle of a child coming to life! Press 'b' if you haven't!",
+			"2)Press 'b' if you have ever lost someone very close to you. Press 'a' if you haven't",
+			"3)Press 'b' if you have ever been bullied. Press 'a' if you haven't",
+			"4)Press 'b' if you have ever been denied an opportunity because of your gender. Press 'a' if you haven't!",
+			"5)Press 'b' if you have ever been denied an opportunity because of your nationality. Press 'a' if you haven't!",
+			"6)Press 'b' if you have ever benn in an enviroment that you did not feel safe being but could not avoid it. (Ex. A shady neighborhood) Press 'a' if you haven't!",
+			"7)Press 'a' if you could go to holidays at least once per year when you were a child/teenager. Press 'b' if you could not! ",
+			"8)Prees 'a' if you could go to the cinema at least once a week while growing up. Press 'b' if you couldn't",
+			"9)Press 'a' if you could use and benfit from Internet. Press 'b' if you couldn't",
+			"10)Press 'a' if you can fall in love and build a relatioship with the person of your choice. Press 'b' if you can't",
+			"11)Press 'b' if you were betrayed by a friend or partner. Press 'a' if you haven't!",
+			"12)Press 'b' if at some point in your life you did not have money for food. Press 'a' if you did."	]
+
+print("Here comes the first challenge: ")
+print()
+
+Answers = ["","","","","","","","","","","",""]
+
+totalPoints = 100
+QuestionAnswerCount = 0
+
+while QuestionAnswerCount <=11:
+  print(Questions[QuestionAnswerCount] + " ")
+  print()
+  Answers[QuestionAnswerCount] = input("Your answer: ")
+
+  if Answers[QuestionAnswerCount] == 'a':
+    totalPoints += 10
+    print()
+    print("Thank you for answering! Let's go to the next one.")
+    print()
+    print()
+  
+  elif Answers[QuestionAnswerCount] == 'b':
+    totalPoints -= 5
+    print()
+    print("Thank you for answering! Let's go to the next one.")
+    print()
+    print()
+  
+  else:
+    totalPoints -= 1
+    print("Sorry :/ !!! You just lost 1 point.")
+    print("You have one more chance to fix it :)! ")
+    print()
+
+    print(Questions[QuestionAnswerCount] + " ")
+    print()
+    Answers[QuestionAnswerCount] = input("Your answer: ")
+
+    if Answers[QuestionAnswerCount] == 'a':
+      totalPoints += 11
+      print()
+      print("Thank you for answering! Let's go to the next one.")
+      print()
+      print()
+    elif Answers[QuestionAnswerCount] == 'b':
+      totalPoints -= 4
+      print()
+      print("Thank you for answering! Let's go to the next one.")
+      print()
+      print()
+    else:
+      print("Let's move on to the next question. ")
+      print()
+      print()
+      
+      
+  QuestionAnswerCount += 1
+
+print()
+print("End of Game")
+print("Your score is: ")
+print(totalPoints)
+print()
+print()
+
+print()
+print("Below you can find my score. Author: Irdi Duka. Check my profile on Instagram or Facebook. I am a real person too.")
+print("My score is: 115 ")
+print()
+print()
+
+
+
+
+print("HOWEVER")
+print("I never let those events affect my growth, let alone a number.")
+print("Do not let a number define You.")
+print("You are so much more than that.")
+print("Let Me show You why...")
+print()
+
+continue1 = input("Press 'a' or '1' to continue: ")
+
+while continue1 == 'a' or continue1 == '1' : 
+  
+  print()
+  print("My dear citizen of the world")
+  print("Those are events that you could not control and are in your past!")
+  print("Maybe they have affected you so far in your life!")
+  print()
+  print()
+  continue1 = input("Press 'a' or '1' to continue: ")
+
+  print("It is YOUR DECISION if you want to let it affect your future.")
+  print("Some poeple were born privileged.")
+  print("That's our today's society!")
+  print()
+  print()
+
+  continue1 = input("Press 'a' or '1' to continue: ")
+  print("Do not worry.")
+  print("Everyone is born with an unfair advantage")
+  print("If you can actually read this, that is an unfair advantage.")
+  print("Many people out there have never seen light :/ .")
+  print()
+  print()
+
+  continue1 = input("Press 'a' or '1' to continue: ")
+  print("So stop complaining about how other people had unfair advantages...")
+  print("Know yours. Work Hard. Change your life. Improve and most importantly...")
+  print()
+  print()
+  print()
+  print()
+  print()
+  continue1 = input("Press 'a' or '1' to continue: ")
+
+print("BE HAPPY!")
+
+
